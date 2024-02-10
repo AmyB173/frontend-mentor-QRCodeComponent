@@ -1,34 +1,49 @@
 body {
-    background-color: lightblue;
+    background-color:  hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
-}
-
-
-main {
-    background-color: white;
-    width: 330px;
-    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    justify-content: center;
+    height: 100vh;
 }
 
+main {
+    background-color: white;
+    width: 360px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* Card with code and text  */
 img {
     border-radius: 10px;
-    width: 300px;
+    width: 330px;
+    margin-top: 15px;
 }
-
+.text-content {
+    width: 310px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
 h1 {
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: 800;
+    color: hsl(218, 44%, 22%);
 }
 
 p {
     font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    
+
 }
 
-.content {
-    width: 300px;
-    margin: 15px;
-    text-align: center;
+footer {
+    position: absolute;
+    bottom: 0;
 }
